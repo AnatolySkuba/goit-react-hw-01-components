@@ -1,0 +1,14 @@
+.friendList {
+background-color: white;
+position: relative;
+width: 320px;
+margin: 55px auto 0 auto;
+padding: 10px 5px 10px 40px;
+}
+
+.item {
+  display: flex;
+  margin: 10px;
+  padding: 5px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 255, .2);
+}
