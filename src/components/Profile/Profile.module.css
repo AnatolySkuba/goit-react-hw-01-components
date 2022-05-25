@@ -1,51 +1,51 @@
 .description {
-  background: #fff;
-  text-align: center;
-  width: 400px;
-  height: 350px;
-  padding: 30px;
-  margin: 0 auto;
+	background: #fff;
+	text-align: center;
+	width: 400px;
+	height: 350px;
+	padding: 30px;
+	margin: 0 auto;
 }
 
 .avatar {
-  width: 100px;
+	width: 100px;
 }
 
 .name {
-  color: midnightblue;
-  font-weight: bold;
+	color: midnightblue;
+	font-weight: bold;
 }
 
 .tag,
 .location {
-  color: cadetblue;
-  font-size: 24px;
+	color: cadetblue;
+	font-size: 24px;
 }
 
 .stats {
-  display: flex;
-  margin: 0;
-  width: 460px;
-  padding: 0;
-  margin: 0 auto;
+	display: flex;
+	margin: 0;
+	width: 460px;
+	padding: 0;
+	margin: 0 auto;
 }
 
 .item {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  padding: 15px;
-  width: 100%;
-  background-color: beige;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	padding: 15px;
+	width: 100%;
+	background-color: beige;
 }
 
 .label {
-  color: cadetblue;
-  font-size: 20px;
+	color: cadetblue;
+	font-size: 20px;
 }
 
 .quantity {
-  color: midnightblue;
-  font-size: 25px;
-  font-weight: bolder;
+	color: midnightblue;
+	font-size: 25px;
+	font-weight: bolder;
 }
