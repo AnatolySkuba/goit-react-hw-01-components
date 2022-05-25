@@ -1,0 +1,38 @@
+.avatar {
+  height: 48px;
+}
+
+.name {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 15px;
+  margin: 0;
+}
+
+.statusOnline::before {
+  color: crimson;
+  /* UTF-8 escape sequence, соответствующая символу "Маркер списка" */
+  content: '\2022';
+  /* Делаем больше, чем основной текст в li */
+  font-size: 50px;
+  font-weight: 700;
+  /* Элемент вырван из потока, выравниваем отрицательным отступом */
+  left: 10px;
+  /* Высота строки и позиционирование необходимы для выравнивания по вертикали */
+  line-height: 40px;
+  position: absolute;
+}
+
+.statusOffline::before {
+  color: forestgreen;
+  /* UTF-8 escape sequence, соответствующая символу "Маркер списка" */
+  content: '\2022';
+  /* Делаем больше, чем основной текст в li */
+  font-size: 50px;
+  font-weight: 700;
+  /* Элемент вырван из потока, выравниваем отрицательным отступом */
+  left: 10px;
+  /* Высота строки и позиционирование необходимы для выравнивания по вертикали */
+  line-height: 40px;
+  position: absolute;
+}

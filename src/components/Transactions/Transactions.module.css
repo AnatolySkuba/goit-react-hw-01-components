@@ -1,0 +1,31 @@
+.transactionHistory {
+  background-color: white;
+  margin: 55px auto 0 auto;
+  padding: 15px;
+  font-size: small;
+  border-collapse: collapse;
+}
+
+.thead {
+  background-color: dodgerblue;
+  color: white;
+  text-transform: uppercase;
+}
+
+.tbody {
+  color: dodgerblue;
+}
+
+.th {
+  padding: 10px 50px;
+}
+
+.tr:nth-child(even) {
+  background-color: #c9e4f6;
+}
+
+.td {
+  padding: 10px 50px;
+  text-align: center;
+  border: 1px solid lightblue;
+}
